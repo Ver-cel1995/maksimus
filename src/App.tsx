@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Container, Header} from "./layout/header/Header";
+import {OurClub} from "./layout/sections/ourClub/ourClub";
+import {Choice} from "./layout/sections/choice/choice";
+import {DirectionСlub} from "./layout/sections/directionСlub/directionСlub";
+import {Navigate, Route, Routes} from "react-router-dom";
+import {Menu} from "./components/menu/Menu";
+import {FlexWrapper} from "./components/FlexWrapper";
+import {Logo} from "./components/logo/Logo";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Container>
+                <FlexWrapper justify="space-between">
+                    <Logo/>
+                    <Menu/>
+                </FlexWrapper>
+            </Container>
+            <Routes>
+                <Route path='/page1' element={<Header/>}/>
+                <Route path="/" element={<Navigate to={"/page1"}/>}/>
+
+                <Route path='/page2' element={<OurClub/>}/>
+                <Route path='/page3' element={<Choice/>}/>
+                <Route path='/page4' element={<DirectionСlub/>}/>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
