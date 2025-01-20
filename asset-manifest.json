@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maksimus/static/css/main.e6c13ad2.css",
+    "main.js": "/maksimus/static/js/main.aa597147.js",
+    "static/js/453.efd65ba7.chunk.js": "/maksimus/static/js/453.efd65ba7.chunk.js",
+    "static/media/headerImg.png": "/maksimus/static/media/headerImg.960f0f084184f27b59db.png",
+    "static/media/horse1.png": "/maksimus/static/media/horse1.c274fd8089ff41c85133.png",
+    "static/media/horse5.png": "/maksimus/static/media/horse5.3bed07061eecec6e5715.png",
+    "static/media/horse7.png": "/maksimus/static/media/horse7.3cc8eb2b5c6099918a1f.png",
+    "static/media/horse2.png": "/maksimus/static/media/horse2.c10c0011d96b861da68a.png",
+    "static/media/horse4.png": "/maksimus/static/media/horse4.e6b257572f83760fc3fb.png",
+    "static/media/horse6.png": "/maksimus/static/media/horse6.01d7daf1331298142ceb.png",
+    "static/media/horse3.png": "/maksimus/static/media/horse3.986c6bec39b5e4c37712.png",
+    "static/media/sprite.svg": "/maksimus/static/media/sprite.8fc1b17a4d1c35e811028234ae407691.svg",
+    "static/media/bench.png": "/maksimus/static/media/bench.6a452adc482f3fbd5218.png",
+    "static/media/car.png": "/maksimus/static/media/car.01e461c2e4002f85de8e.png",
+    "static/media/stopWatch.png": "/maksimus/static/media/stopWatch.a37ad62105d316e04918.png",
+    "index.html": "/maksimus/index.html",
+    "main.e6c13ad2.css.map": "/maksimus/static/css/main.e6c13ad2.css.map",
+    "main.aa597147.js.map": "/maksimus/static/js/main.aa597147.js.map",
+    "453.efd65ba7.chunk.js.map": "/maksimus/static/js/453.efd65ba7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.aa597147.js"
+  ]
+}
